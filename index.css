@@ -409,19 +409,24 @@
 }
 
 .smashing-family-ctn {
-  border: 1px solid green;
   width: 100%;
   margin: 0 auto;
-  height: 70vh;
+  height: 480px;
   display: flex;
   justify-content: space-around;
+  border-radius: 15px;
 }
 
 .family-title {
   width: 900px;
-  margin: 90px auto;
+  margin: 120px auto;
+  margin-bottom: 160px;
   text-align: center;
-  border: 1px solid red;
+}
+
+.cat-1:hover,
+.cat-2:hover {
+  cursor:pointer;
 }
 
 .family-title p {
@@ -436,16 +441,46 @@
   font-weight: bold;
 }
 
-.smashing-books {
-  /* height: 200px; */
-  border: 1px solid blueviolet;
-  width: 47%;
-}
-
+.smashing-books,
 .smashing-workshops {
-  /* height: 200px; */
-  border: 1px solid lawngreen;
   width: 47%;
+  background-color: #F1FDF8;
+  border-radius: 15px;
+  text-align: center;
 }
 
+.cat-1,
+.cat-2 {
+  width: 260px;
+  height: 260px;
+  margin-top: -130px;
+  margin-bottom: 20px;
+}
 
+.paragraph-sb {
+  font-size: 21px;
+  line-height: 30px;
+  margin: 40px auto;
+}
+
+.smashing-books a,
+.smashing-workshops a {
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 20px 36px;
+  background-color: #18A46F;
+  margin-top: 20px;
+}
+
+.p-link {
+  font-size: 15px;
+  margin-top: 30px;
+  color: #666666;
+}
+
+.smashing-workshops a {
+  background-color: #006FCA;
+}
