@@ -95,7 +95,7 @@
 
 .most-viewed-articles {
   width: 88%;
-  margin: 0 auto;
+  margin: 150px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -129,13 +129,13 @@
 }
 
 .img-span-div p {
-  font-size: 16px;
   font-family: Elena;
 }
 
 .img-span-div h1 {
   font-weight: bold;
   font-size: 45px;
+  margin: 20px auto;
 }
 
 .hoober-image,
@@ -145,7 +145,7 @@
 .adrian-image,
 .vitaly-image,
 .cosima-image,
-.shell-adrian-image {
+.shell-adrian-image{
   width: 160px;
   height: 160px;
   border-radius: 12px;
@@ -183,7 +183,7 @@
 .div {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin: 50px;
 }
 
 .top {
@@ -349,7 +349,7 @@
 .see-all-guides,
 .see-more-latest {
   width: 200px;
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 8px;
   text-align: center;
   border-bottom: 4px solid #D33A2C;
@@ -403,6 +403,7 @@
 }
 
 .lp-post {
+  display: flex;
   flex: 1;
   flex-basis: 50%;
   padding: 50px 40px;
@@ -571,4 +572,29 @@
 
 .link-parag a {
   color: #186FC6;
+}
+
+.person-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.person-p {
+  line-height: 35;
+}
+
+.chen-image,
+.adam-image,
+.ahmad-image,
+.josh-image,
+.alex-image,
+.una-image {
+  border: 5px solid rgb(212, 59, 45);
+  border-radius: 12px;
+}
+
+.lp-article-par a {
+  color:#186FC6;
 }
