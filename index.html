@@ -7,6 +7,7 @@
   <title>Smashing Magazine.</title>
   <link rel="stylesheet" href="./index.css">
   <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
   <div class="ctn">
@@ -17,14 +18,17 @@
       <div class="navbar-link">Book</div>
       <div class="navbar-link">Workshops</div>
       <div class="navbar-link">Membership</div>
-      <div class="navbar-link">More</div>
+      <div class="navbar-link more">More</div>
       <form action="" class="search-bar">
         <input type="text" class="search" placeholder="Search articles...">
       </form>
     </header>
     <div class="article-type-links">
       <div class="article-link">
-        <a href="">css</a>
+        <a href="">Accessibility</a>
+      </div>
+      <div class="article-link">
+        <a href="">CSS</a>
       </div>
       <div class="article-link">
         <a href="">JavaScript</a>
@@ -53,6 +57,12 @@
       <div class="article-link">
         <a href="">Round-Ups</a>
       </div>
+      <div class="article-link">
+        <a href="">Web Design</a>
+      </div>
+      <div class="article-link">
+        <a href="">Guides</a>
+      </div>
     </div>
     <div class="top-articles">
       <div class="popular-articles">
@@ -60,9 +70,9 @@
           <img src="./images/steven.avif" alt="#" class="hoober-image">
           <div class="img-span-div">
             <p><a href="" class="name-link">Steven Hoober</a> wrote</p>
-            <h1>Fitt's Law In The</h1>
-            <h1>Touch Era</h1>
-            <p>FEB 9, 2022 in 
+            <h1 class="text-h1">Fitt's Law In The</h1>
+            <h1 class="text-h1">Touch Era</h1>
+            <p><b>FEB 9, 2022 in</b>
               <a href="" target="_blank" class="links"> UX,</a> 
               <a href="" target="_blank" class="links"> UI,</a>
               <a href="" target="_blank" class="links"> Tools</a></p>
@@ -266,7 +276,7 @@
     <div class="person-menu">
       <div class="chen lp-post">
         <img src="./images/chen.png" alt="#" class="chen-image stas-image">
-        <div class="img-span-div">
+        <div class="person-menu-div">
           <p><a href="" class="name-link">Chen Hui Jing</a> wrote</p>
           <h1>Using SVG Icons</h1>
           <p class="lp-article-par person-p"><b>FEBRUARY 11, 2022 —</b> What’s the best method for implementing SVG icons? Chen Hui Ching <a href="" target="_blank">documented the different techniques</a> to help you find the one that suits your use case.</p>
@@ -274,42 +284,107 @@
       </div>
       <div class="adam lp-post">
         <img src="./images/adam.png" alt="#" class="adam-image stas-image">
-        <div class="img-span-div">
+        <div class="person-menu-div">
           <p><a href="" class="name-link">Adam Argyle </a> wrote</p>
           <h1>Adaptive Favicons</h1>
-          <p class="lp-article-par">february 10, 2022 — A custom favicon is a great way to polish a web project. If you want to go a step further, how about a favicon that adapts to light/dark mode? Adam Argyle shows <a href="" target="_blank">how to do it.</a></p>
+          <p class="lp-article-par"><b>FEBRUARY 10, 2022 — </b>A custom favicon is a great way to polish a web project. If you want to go a step further, how about a favicon that adapts to light/dark mode? Adam Argyle shows <a href="" target="_blank">how to do it.</a></p>
         </div>
       </div>
       <div class="ahmad lp-post">
         <img src="./images/ahmad.png" alt="#" class="ahmad-image stas-image">
-        <div class="img-span-div">
+        <div class="person-menu-div">
           <p><a href="" class="name-link">Ahmad Shadeed</a> wrote</p>
           <h1>Position Sticky With CSS Grid</h1>
-          <p class="lp-article-par">february 9, 2022 — Have you ever come across a case where position: sticky isn’t working as expected with a child of a grid container? Ahmad Shadeed <a href="" target="_blank">explains why this happens.</a> </p>
+          <p class="lp-article-par"><b>FEBRUARY 9, 2022 —</b> Have you ever come across a case where position: sticky isn’t working as expected with a child of a grid container? Ahmad Shadeed <a href="" target="_blank">explains why this happens.</a> </p>
         </div>
       </div>
       <div class="josh lp-post">
         <img src="./images/josh.png" alt="#" class="josh-image stas-image">
-        <div class="img-span-div">
+        <div class="person-menu-div">
           <p><a href="" class="name-link">Josh W. Comeau</a> wrote</p>
           <h1>Better Shadows With CSS</h1>
-          <p class="lp-article-par">february 8, 2022 — Shadows on the web often look like fuzzy gray boxes rather than natural shadows. Josh W. Comeau shares <a href="" target="_blank">practical tips</a> to make the typical box shadows more realistic.</p>
+          <p class="lp-article-par"><b>FEBRUARY 8, 2022 — </b>Shadows on the web often look like fuzzy gray boxes rather than natural shadows. Josh W. Comeau shares <a href="" target="_blank">practical tips</a> to make the typical box shadows more realistic.</p>
         </div>
       </div>
       <div class="alex lp-post">
         <img src="./images/alex.png" alt="#" class="alex-image stas-image">
-        <div class="img-span-div">
+        <div class="person-menu-div">
           <p><a href="" class="name-link">Alex Nuzhnyi</a> wrote</p>
           <h1>Color Clipping Effect</h1>
-          <p class="lp-article-par">february 7, 2022 — Alex Nuzhnyi shares an inspiring <a href="" target="_blank">demo</a> that uses CSS gradients to apply a clipping effect to plain text. Multiple gradient stops create a hover effect.</p>
+          <p class="lp-article-par"><b>FEBRUARY 7, 2022 — </b>Alex Nuzhnyi shares an inspiring <a href="" target="_blank">demo</a> that uses CSS gradients to apply a clipping effect to plain text. Multiple gradient stops create a hover effect.</p>
         </div>
       </div>
       <div class="una lp-post">
         <img src="./images/una.png" alt="#" class="una-image stas-image">
-        <div class="img-span-div">
+        <div class="person-menu-div">
           <p><a href="" class="name-link">Una Kravets</a> wrote</p>
           <h1>Cascade Layers</h1>
-          <p class="lp-article-par">february 4, 2022 — Cascade layers are coming to Chromium 99, Firefox 97, and Safari 15.4, enabling more explicit control of your CSS files. Una Kravets <a href="" target="_blank">explains how they work.</a></p>
+          <p class="lp-article-par"><b>FEBRUARY 4, 2022 —</b> Cascade layers are coming to Chromium 99, Firefox 97, and Safari 15.4, enabling more explicit control of your CSS files. Una Kravets <a href="" target="_blank">explains how they work.</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="links-twitter">
+      <a href="">MORE LINKS ON TWITTER</a> 
+    </div>
+    <div class="sm-topics">
+      <p class="topics-head-parag">BROWSE ALL SMASHING MAGAZINE TOPICS</p>        
+      <ul class="ul-links">
+        <li><a href="">Accessibility</a></li>
+        <li><a href=""> Android</a></li>
+        <li><a href="">Animation</a></li>
+        <li><a href="">Apps</a></li>
+        <li><a href="">CSS</a></li>
+        <li><a href="">Design</a></li>
+        <li><a href="">Design Patterns</a></li>
+        <li><a href="">Design Systems</a></li>
+        <li><a href="">E-Commerce</a></li>
+        <li><a href="">Freebies</a></li>
+        <li><a href="">Graphics</a></li>
+        <li><a href="">HTML</a></li>
+        <li><a href="">Illustrator</a></li>
+        <li><a href="">Inspiration</a></li>
+        <li><a href="">iOS</a></li>
+        <li><a href="">JavaScript</a></li>
+        <li><a href="">Mobile</a></li>
+        <li><a href="">Pattern Libraries</a></li>
+        <li><a href="">Performance</a></li>
+        <li><a href="">Photoshop</a></li>
+        <li><a href="">Plugins</a></li>
+        <li><a href="">React</a></li>
+        <li><a href="">Responsive Design</a></li>
+        <li><a href="">Service Workers</a></li>
+        <li><a href="">Sketch</a></li>
+        <li><a href="">Typography</a></li>
+        <li><a href="">UI</a></li>
+        <li><a href="">Usability</a></li>
+        <li><a href="">User Experience</a></li>
+        <li><a href="">Wallpapers</a></li>
+        <li><a href="">Web Design</a></li>
+        <li><a href="">WordPress</a></li>
+        <li><a href="">Workflow</a></li>
+      </ul>
+      <div class="sm-about">
+        <div class="bird">
+        </div>
+        <div class="sm-contact">
+          <p><em>With a commitment to quality content for the design community.</em></p>
+          <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2022.</p>
+          <p>Smashing is proudly running on <a href="">Netlify.</a></p>
+          <p>Fonts by <a href="">Latinotype.</a></p>
+            <ul class="sm-contact-ul">
+              <li><a href="">✎ Write for us</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">About us (Impressum)</a></li>
+              <li><a href="">Privacy policy</a></li>
+              <li><a href="">Membership login</a></li>
+              <li><a href="">Delivery times</a></li>
+              <li><a href="">Advertise</a></li>
+            </ul>
+        </div>
+        <div class="sm-cat">
+        </div>
+        <div class="to-top">
+          <!-- <button><i class="fas fa-angle-up"></i></button> -->
         </div>
       </div>
     </div>
