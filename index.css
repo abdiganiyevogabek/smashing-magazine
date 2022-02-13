@@ -488,7 +488,7 @@
   background-color: #006FCA;
   margin-top: 100px;
   padding-top: 50px;
-  height: 160vh;
+  height: 170vh;
   display: flex;
   align-items: center;
   text-align: center;
@@ -543,3 +543,32 @@
   width: 950px;
 }
 
+.person {
+  display: flex;
+  width: 80%;
+  margin: 70px auto;
+}
+
+.person-of-the-week {
+  width: 220px;
+  height: 220px;
+  border: 6px solid rgb(212, 59, 45);
+  border-radius: 12px;
+  margin-right: 25px;
+}
+
+.title-parag {
+  font-size: 20px;
+  color: #66667F;
+}
+
+.link-parag {
+  font-size: 21px;
+  line-height: 32px;
+  color: #463D33;
+  margin-top: 38px;
+}
+
+.link-parag a {
+  color: #186FC6;
+}
