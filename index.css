@@ -75,7 +75,7 @@
 }
 
 .top-articles {
-  width: 87%;
+  width: 85%;
   margin: 30px auto;
   display: flex;
   justify-content: space-between;
@@ -88,7 +88,7 @@
 
 .email-notify {
   height: 650px;
-  width: 30%;
+  width: 33%;
   margin-top: 110px;
   border-radius: 10px;
   padding: 5px 20px;
@@ -96,14 +96,18 @@
 
 .most-viewed-articles {
   width: 88%;
-  margin: 150px auto;
+  margin: 130px auto;
   display: flex;
   justify-content: space-between;
 }
 
+.most-viewed-articles {
+  margin-bottom: 35px;
+}
+
 .mw-article {
   width: 32%;
-  box-shadow: 0 0 15px gray;
+  box-shadow: 0 7px 18px gray;
   border-radius: 12px;
 }
 
@@ -357,11 +361,11 @@
 .see-all-guides,
 .see-more-latest,
 .links-twitter {
-  width: 200px;
+  width: 180px;
   margin: 50px auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 4px solid #D33A2C;
+  border-bottom: 5px solid #D33A2C;
 }
 
 .see-more-latest,
@@ -387,9 +391,9 @@
 }
 
 .lp-article-par {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 30px;
-  margin: 30px auto;
+  margin: 15px auto;
 }
 
 .img-span-div h1 {
@@ -418,7 +422,7 @@
   display: flex;
   flex: 1;
   flex-basis: 50%;
-  padding: 40px 30px;
+  padding: 45px 30px;
 }
 
 .smashing-family-ctn {
@@ -559,8 +563,10 @@
 
 .person {
   display: flex;
-  width: 80%;
+  width: 88%;
   margin: 70px auto;
+  padding: 0 30px;
+  position: relative;
 }
 
 .person-of-the-week {
@@ -568,7 +574,7 @@
   height: 220px;
   border: 6px solid rgb(212, 59, 45);
   border-radius: 12px;
-  margin-right: 25px;
+  margin: 0 25px;
 }
 
 .title-parag {
@@ -702,4 +708,19 @@
 .more {
   background-color: #93281F;
   border-radius: 10px;
+}
+
+.rotate,
+.person-rotate {
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.person-rotate {
+  top: -60px;
+  font-size: 14px;
 }
